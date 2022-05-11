@@ -1,3 +1,4 @@
+//c program to check whether a string ends with given substring//
 #include <stdio.h>
 #include <string.h>
 #include <stdbool.h>
