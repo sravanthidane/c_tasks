@@ -14,17 +14,7 @@ void check_substring(char str[], char substr[])
                 c == 0;
             }
         }
-    }
-
-    if (c == 1)
-    {
-        printf("String ends with substring.\n");
-    }
-
-    else
-    {
-        printf("String does not  end with substring.\n");
-    }
+    }   
 }
 
 int main()
@@ -36,6 +26,13 @@ int main()
     int lenofsubstr = strlen(substr);
 
     // logic to check and traversing string//
-    check_substring(str, substr);
+    if(check_substring(str, substr))
+    { 
+        printf("String does not  end with substring.\n");
+    }
+    else
+    {
+        printf("String does not  end with substring.\n");
+    }  
     return 0;
 }
