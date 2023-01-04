@@ -11,7 +11,6 @@ int main() {
   printf("Enter the number of records: ");
   scanf("%d", &no_of_Records);
 
-  // Memory allocation for noOfRecords structures
   ptr = (struct course *)malloc(no_of_Records * sizeof(struct course));
   for (int i = 0; i < no_of_Records; ++i) {
     printf("Enter subject and marks:\n");
